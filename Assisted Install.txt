@@ -1,0 +1,13 @@
+[Assisted Install]
+
+License Accepted=1
+
+Deployment Options=0
+
+Admin Console User=admin
+
+Admin Console Password=password
+
+Admin Console PIN=8888
+
+License Certificate Path=/fm-installer/LicenseCert-2.fmcert
