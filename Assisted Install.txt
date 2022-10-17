@@ -4,10 +4,16 @@ License Accepted=1
 
 Deployment Options=0
 
+FileMaker Server User=0
+
 Admin Console User=admin
 
 Admin Console Password=password
 
 Admin Console PIN=8888
 
+Launch Deployment Assistant=0
+
 License Certificate Path=/fm-installer/LicenseCert-2.fmcert
+
+SkipDialog=1
