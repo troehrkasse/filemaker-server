@@ -88,9 +88,6 @@ RUN apt --fix-broken install         -y
 RUN apt autoremove                   -y
 RUN apt clean                        -y
 
-# Install FileMaker Server 19
-RUN apt install -y /fm-installer/filemaker-server-19.5.4.400-amd64.deb
-
 # Required ports
 EXPOSE 80
 EXPOSE 443
