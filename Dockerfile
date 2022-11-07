@@ -92,7 +92,9 @@ RUN apt clean                        -y
 EXPOSE 80
 EXPOSE 443
 EXPOSE 2399
-EXPOSE 5003
+EXPOSE 5003/tcp
+EXPOSE 5003/udp
+EXPOSE 16000
 
 # Run as root
 USER root
